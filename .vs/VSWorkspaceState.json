@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Template_API\\Context",
+    "\\Template_API\\Controllers",
+    "\\Template_API\\Dto",
+    "\\Template_API\\Models",
+    "\\Template_API\\Properties",
+    "\\Template_API\\Repositories",
+    "\\Template_API\\Services"
+  ],
+  "SelectedNode": "\\Template_API.sln",
+  "PreviewInSolutionExplorer": false
+}
