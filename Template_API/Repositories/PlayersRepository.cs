@@ -20,7 +20,7 @@ namespace Template_API.Repositories
 
         public async Task<IEnumerable<PlayersModel>> GetPlayers()
         {
-            var query = "";
+            var query = "SELECT Id, Name, Country FROM Players";
             using (var connection = _context.CreateConnection())
             {
                 var players = await connection.QueryAsync<PlayersModel>(query);
@@ -33,7 +33,7 @@ namespace Template_API.Repositories
             var query = "";
             using (var connection = _context.CreateConnection())
             {
-                var player = await connection.QuerySingleOrDefaultAsync(query, new {id});
+                var player = await connection.QuerySingleOrDefaultAsync<PlayersModel>(query, new {id});
                 return player;
             }
         }

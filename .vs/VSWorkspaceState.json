@@ -1,6 +1,7 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Template_API",
     "\\Template_API\\Context",
     "\\Template_API\\Controllers",
     "\\Template_API\\Dto",
@@ -9,6 +10,6 @@
     "\\Template_API\\Repositories",
     "\\Template_API\\Services"
   ],
-  "SelectedNode": "\\Template_API.sln",
+  "SelectedNode": "\\Template_API\\Repositories\\PlayersRepository.cs",
   "PreviewInSolutionExplorer": false
 }
